@@ -1,0 +1,31 @@
+
+class Demo{
+	//Instance Variable
+	int a = 10;
+	int  b = 20;
+	
+	void add() {
+		System.out.println("Addition Is :"+ (a+b));
+	}
+	
+	//Local Variable
+	void add1() {
+		int a = 20;
+		int b= 30;
+		System.out.println("Addition Is :"+ (a+b));
+	}
+	
+	
+	}
+
+	public class Variables {
+
+	public static void main(String[] args) {
+		Demo d1 = new Demo();
+		d1.add();
+		d1.add1();
+		
+		
+	}
+
+	}
