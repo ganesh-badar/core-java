@@ -32,3 +32,8 @@ public class Instancevariable {
 		v1.add2();
 	}
 }
+
+
+O/P---> sum = 30
+        sum = 12
+        sum= 30
