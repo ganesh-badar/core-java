@@ -1,0 +1,64 @@
+package basic;
+
+class student{
+	
+	//instance variable
+	int rollno;
+	String name;
+	float marks;
+	
+	
+	//default constructor
+	student(){
+		rollno = 1 ;
+		name  = "Ganesh";
+		 marks = 87.50f;
+	}
+	
+	student(int rno,String nm,float mrk){
+		 rollno = rno;
+	     name = nm;
+		 marks = mrk;
+		
+		
+	}
+	
+	
+	/* parameterized contructor having same name the we can use 
+	 * this keyword  to represnt  the current object of class
+	 */
+	
+	student(int rollno1,String name1,float mrks){
+		this.rollno = rollno1;
+		this.name= name1;
+		this.marks = mrks;
+	}
+
+	@Override
+	public String toString() {
+		return "student [rollno=" + rollno + ", name=" + name + ", marks=" + marks + "]";
+	}
+	
+}
+
+
+public class constructor {
+
+	public static void main(String[] args) {
+		
+	student s1 = new student();
+	System.out.println("Roll no="+ s1.rollno + " Name ="+s1.name+" Marks ="+ s1.marks);
+	  //System.out.println(s1.toString());
+	  student s2 = new student(2,"shreyash",99.9f);
+	  System.out.println(s2.toString());
+	  student s3 = new student(3,"ram",35.5f);
+	  System.out.println(s3.toString());
+	 
+	
+
+	}
+
+}
+o/p--> Roll no=1 Name =Ganesh Marks =87.5
+       student [rollno=2, name=shreyash, marks=99.9]
+       student [rollno=3, name=ram, marks=35.5]
