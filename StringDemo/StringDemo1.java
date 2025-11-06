@@ -36,3 +36,13 @@ public class StringDemo1 {
 
 }
 
+o/p --> Ga
+        true
+    	true
+		SHREYASH
+		rohit
+		I
+		ProFound
+		Java Is Object Oriented Language
+
+
