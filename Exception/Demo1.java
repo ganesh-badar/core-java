@@ -12,3 +12,9 @@ public class Demo1 {
 	}
 
 }
+
+//unchecked  or runtime exception
+
+o/p ---> 10
+   		Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 6
+		at Exception.Demo1.main(Demo1.java:8)
