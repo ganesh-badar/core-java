@@ -12,6 +12,9 @@ public class Demo2 {
 	}
 
 }
+
+
+//checked  or CompileTime exception
 o/p ---> Enter Character : 
          g
          g
