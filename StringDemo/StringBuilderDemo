@@ -1,0 +1,23 @@
+package StringDemo;
+
+public class StringBuilderDemo {
+
+	public static void main(String[] args) {
+		StringBuilder s1 = new StringBuilder("itpark");
+		System.out.println(s1.capacity());
+		System.out.println(s1.insert(0, 'E'));
+		System.out.println(s1.append("park"));
+		System.out.println(s1.delete(7,11 ));  // not exclude 7
+		System.out.println(s1.replace(0, 3, "IT")); //exclude 3
+		System.out.println(s1.reverse());
+	}
+ 
+}
+
+ o/p ---> 22
+          Eitpark
+          Eitparkpark
+          Eitpark
+          ITpark
+          krapTI
+
