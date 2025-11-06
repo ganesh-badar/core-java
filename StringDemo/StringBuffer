@@ -1,0 +1,29 @@
+package StringDemo;
+
+public class StringBufferDemo {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("Edutech");
+		System.out.println(sb.capacity());  // capacity of StringBuffer is 16 Byte  so 16 + 7 = 23
+		System.out.println(sb.insert(0,'p'));
+		System.out.println(sb.append("IT"));
+		System.out.println(sb.delete(0,1));
+		System.out.println(sb.replace(0,3 , "Giri"));
+		System.out.println(sb.reverse());
+		
+		
+		
+
+	}
+
+}
+
+
+
+o/p --->
+      23
+      pEdutech
+      pEdutechIT
+      EdutechIT
+      GiritechIT
+      TIhcetiriG
