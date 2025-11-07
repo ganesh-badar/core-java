@@ -36,5 +36,17 @@ public class Demo3 {
 		
 
 	}
-}
+   }
+
+
+
+   1st	o/p ---> Enter PassOut Year : 
+			 2024
+			 Register Here! 
+
+	   
+   2nd o/p --->Enter PassOut Year : 
+			   2025
+			   Exception.passout: Pass Out Year Must Be 2024!... Sorry You Can't Apply
+
 
