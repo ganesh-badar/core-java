@@ -51,4 +51,21 @@ public class Demo4 {
 		}
 	 sc.close();
 }
+
 }
+
+
+o/p ---> Enter Amount : 
+		 500
+		 Transaction Sucessfull: Updated Balance Is :9500.0
+  		 thank you! for using the Atm
+	
+o/p ---> Enter Amount : 
+		 50000
+		 Withdraw Amount should less than Balance  Insufficient Balance
+	 	 thank you! for using the Atm
+o/p --->Enter Amount : 
+		-100000
+		Amount must be greater than 0
+		thank you! for using the Atm
+
