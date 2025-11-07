@@ -61,3 +61,22 @@ public class ADemo {
 	}
 
 }
+
+1st o/p  ---> Enter 2 number :  5                     
+  								2
+								Division 2
+								Thank You!!
+								Addition is 7
+								Substraction 3
+								Multilpication10
+
+
+
+2nd o/p ---> Enter 2 number : 2
+							  5
+							  First no is Smaller than Second  no 
+                              Thank You!!
+                              Addition is 7
+							  Substraction -3
+							  Multilpication10
+
