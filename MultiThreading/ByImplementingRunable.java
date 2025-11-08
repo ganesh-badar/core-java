@@ -20,3 +20,6 @@ public class ByImplementingRunable {
 	}
 
 }
+
+
+o/p ---> In run() method
