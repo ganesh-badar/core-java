@@ -16,3 +16,5 @@ public class ByextendThread {
 	}
 
 }
+
+o/p --->  In (run() Method
