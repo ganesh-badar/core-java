@@ -45,3 +45,21 @@ public class ThreadMethod1 {
 	}
 
 }
+
+
+
+o/p ---> 
+		in run of current thread First,its priority is 10 priority
+		in run of current thread First,its priority is 10 priority
+		in run of current thread First,its priority is 10 priority
+		in run of current thread First,its priority is 10 priority
+		in run of current thread Second,its priority is 1 priority
+		in run of current thread Second,its priority is 1 priority
+		in run of current thread Second,its priority is 1 priority
+		in run of current thread Second,its priority is 1 priority
+		in run of current thread Three,its priority is 5 priority
+		in run of current thread Three,its priority is 5 priority
+		in run of current thread Three,its priority is 5 priority
+		in run of current thread Three,its priority is 5 priority
+		
+
