@@ -29,3 +29,7 @@ public class ThreadMethods {
 	}
 
 }
+
+o/p ---> true
+		 In run of Thread[#29,First,5,main]
+		 In run of Thread[#30,Second,5,main]
