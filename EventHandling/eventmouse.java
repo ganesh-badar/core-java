@@ -20,12 +20,21 @@ public class eventmouse extends MouseAdapter {
 	public static void main(String[] args) {
 		eventmouse m = new eventmouse();
 
-	}
 	
-	public void mouseClicked(MouseEvent e) {
+	}
+/* public void mouseClicked(MouseEvent e) {
+   
 		Graphics g = f.getGraphics();
+		
 		g.setColor(Color.green);
 		g.fillRect(e.getX(), e.getY(), 20,20);
-	}
-
+		
+	} */
+	
+   
+		 public void mouseClicked(MouseEvent e) {
+		        Graphics g = f.getGraphics();
+		        g.setColor(Color.green);
+		        g.fillOval(e.getX(), e.getY(), 40, 40);
+		    }
 }
